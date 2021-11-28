@@ -1,8 +1,8 @@
-Train your first neural network: basic classification
-Run in Google Colab	View source on GitHub
-This guide trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details, this is a fast-paced overview of a complete TensorFlow program with the details explained as we go.
+#Train your first neural network: basic classification
+#Run in Google Colab	View source on GitHub
+#This guide trains a neural network model to classify images of clothing, like sneakers and shirts. It's okay if you don't understand all the details, this is a fast-paced overview of a complete TensorFlow program with the details explained as we go.
 
-This guide uses tf.keras, a high-level API to build and train models in TensorFlow.
+#This uses tf.keras, a high-level API to build and train models in TensorFlow.
 
 # TensorFlow and tf.keras
 import tensorflow as tf
@@ -13,7 +13,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 print(tf.__version__)
-
 
 import tensorflow as tf
 mnist = tf.keras.datasets.mnist
